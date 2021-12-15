@@ -63,7 +63,7 @@ li {
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
-  color: #333;
+  color: rgb(16, 5, 173);
 }
 
 .lead {
@@ -79,7 +79,7 @@ li {
   z-index: 1;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  box-shadow: 0 5px 10px -6px rgba(165, 10, 10, 0.1);
 }
 
 .header .inner {
@@ -118,7 +118,7 @@ li {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: rgb(150, 32, 32);
 }
 .header-nav-item a:after {
   position: absolute;
@@ -136,7 +136,6 @@ li {
 .header-nav-item a:hover:after {
   width: 100%;
 }
-
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
@@ -182,6 +181,8 @@ li {
 }
 .main-visual-text {
   flex: 1;
+  color: rgb(81, 194, 16);
+  background-color: rgb(213, 235, 230);
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
@@ -201,6 +202,9 @@ li {
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
+}
+.works-item:hover{
+  background-color: #fa0276;
 }
 
 .works-img img {
@@ -359,11 +363,16 @@ li {
 }
 
 .skill-body {
-  flex: 1;
+  flex: 2;
 }
 
 .skill-name {
   margin-bottom: 3px;
+  color: rgb(172, 4, 144);
+}
+
+.skill-text{
+  color: #333;
 }
 
 /*--------------------------------
