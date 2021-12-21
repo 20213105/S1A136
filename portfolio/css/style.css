@@ -76,7 +76,7 @@ li {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 50;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(165, 10, 10, 0.1);
@@ -182,10 +182,23 @@ li {
 .main-visual-text {
   flex: 1;
   color: rgb(81, 194, 16);
+  font-size: 20px;
   background-color: rgb(213, 235, 230);
+  text-align: left;
+  padding:5px 3px 5px;
+  border-radius: 30px;
 }
+
+.main-visual-text ol{
+  color: #3802fa;
+}
+
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.mains li{
+  color: rgb(255, 0, 191);
 }
 
 /*--------------------------------
@@ -195,6 +208,12 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+}
+.works-list a{
+  border-top: 10px solid #86dafc;
+  border-bottom: 10px solid #00b7ff;
+  border-left: 10px solid #c1edff;
+  border-right: 10px solid #2dbff8;
 }
 
 .works-item {
@@ -240,6 +259,7 @@ li {
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
+  padding-bottom: 45px;
   border: 2px solid #9ec34b;
   position: relative;
   overflow: hidden;
@@ -278,7 +298,7 @@ li {
   color: #9ec34b;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 16px 16px;
   position: relative;
   border: 2px solid #9ec34b;
   transition: .4s;
@@ -602,6 +622,10 @@ li {
 
   .skill-item:last-child {
     margin-bottom: 0;
+  }
+
+  .skill section{
+    background: rgb(0, 0, 0) repeat;
   }
 
   /* About */
