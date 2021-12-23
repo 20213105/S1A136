@@ -19,12 +19,6 @@ img {
   border-style: none;
 }
 
-.img-main{animation: drift 10000ms linear 5s infinite }
-@keyframes drift{
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); } 
-}
-
 ul,
 li {
   list-style: none;
