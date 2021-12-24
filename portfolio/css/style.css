@@ -78,7 +78,7 @@ li {
   top: 0;
   z-index: 50;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(217, 233, 0);
   box-shadow: 0 5px 10px -6px rgba(165, 10, 10, 0.1);
 }
 
@@ -234,7 +234,7 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #faa186;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
@@ -253,7 +253,7 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #d691fd;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
@@ -344,12 +344,12 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #FFF;
+  color: rgb(252, 252, 252);
   text-decoration: none;
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #a0ff8e, #79fd7f);
   transition: .5s;
   background-size: 200%;
 }
