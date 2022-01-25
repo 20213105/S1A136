@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+body{
+    background: chartreuse;
+}
+form{
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+}
+dl{
+    margin: 0;
+    font-size: 16px;
+}
+dt{
+    flex:1 1 30px;
+    text-align: left;
+    margin-right: 1em;
+    font-weight: bold;
+    color: #00a;
+}
+dd{
+    flex:2 1 30px;
+    margin-left: 0;
+}
+.btn{
+    text-align: center;
+}
+textarea{
+    height: 5em;
+    width: 50em;
+}
+.list{
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ミニアンケート</title>
+        <link rel="stylesheet" href="questionnaire.css" />
+    </head>
+    <body>
+        <h1 class="list">ミニアンケート</h1>
+        <form action="program.php" method="post">
+            <dl>
+            <div>
+                <dt>氏名</dt>
+                <dd><input type="text" name="userName" /></dd>
+            </div>
+            <div>
+                <dt>年齢</dt>
+                <dd>
+                    <label><input type="radio" name="job" value="年齢" />10代</label>
+                    <label><input type="radio" name="job" value="年齢" />20代</label>
+                    <label><input type="radio" name="job" value="年齢" />30代</label>
+                    <label><input type="radio" name="job" value="年齢" />40代</label>
+                    <label><input type="radio" name="job" value="年齢" />50代</label>
+                    <label><input type="radio" name="job" value="年齢" />その他</label>
+                </dd>
+            </div>
+            <div>
+                <dt>今年の抱負</dt>
+                <textarea></textarea>
+            </div>
+            <p>※枠内に書ききれない場合、右下を掴み枠を広げお書きください。</p>
+            </dl>
+            <div class="btn"><input type="submit" value="送信" /></div>
+        </form>
+    </body>
+</html>
