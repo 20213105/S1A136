@@ -671,3 +671,7 @@ p.btn{
   width: 300px;
   text-align: center;
 }
+li a:hover{
+  display: inline;
+  background-color: #f003a1;
+}
