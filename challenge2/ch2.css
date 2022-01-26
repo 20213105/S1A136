@@ -11,21 +11,33 @@
 body {
   margin: 0;
   padding: 40px;
+  background:url(wood.jpg);
+  text-align: center;
 }
 .wrapper {
-  background: #f9f8ee;
+  background: #f8ed76;
   width: 800px;
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 /*----------------------------
 header
 ----------------------------*/
-header { margin-bottom: 60px; }
-h1 { margin-bottom: 20px; }
-ul { background: #fff; }
+header { margin-bottom: 60px;
+}
+h1 { margin-bottom: 20px; 
+    background-size: 150px 50px;
+}
+ul { background: #fff; 
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex:1 1 20%
+}
 a {
   display: block;
   color: #196f6a;
@@ -52,3 +64,4 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+.li{flex: 1 1 20%;}
