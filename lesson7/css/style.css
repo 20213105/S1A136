@@ -330,23 +330,15 @@ button[type="submit"]:hover{
   }
   .nav-list {
     /* flexbox（横並びにする要素の親に指定） */
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     /* フレックスアイテムを主軸方向（横方向）中央揃えで配置 */
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     /* フレックスアイテムを交差軸方向（縦方向）中央揃えで配置 */
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding: 0;
   }
   .nav-list li {
     /* フレックスアイテムに対する指定 */
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     padding: 0 20px;
     line-height: 1;
@@ -359,8 +351,6 @@ button[type="submit"]:hover{
   }
   /* 幅768px未満でメニューを開いた状態から、ウィンドウ幅を768px以上に広げたとき、メニューにflexboxを適用して<li>を横並び表示に切り替える */
   .nav-toggle:checked~.nav .nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   /* セクション */
@@ -389,19 +379,13 @@ button[type="submit"]:hover{
   /* 横並び */
   .row {
     /* flexbox（横並びにする要素の親に指定） */
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     
   }
   /* 横並び要素 */
   .col {
     /* フレックスアイテムに対する指定 */
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 32%;
     flex: 0 1 32%;
     margin: 0;
   }
@@ -422,8 +406,6 @@ button[type="submit"]:hover{
   /* フォームの3つのブロックに対する指定 */
   .form-group {
     /* flexbox（横並びにする要素の親に指定） */
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     max-width: 800px;
     /* 横幅の最大値 */
@@ -432,8 +414,6 @@ button[type="submit"]:hover{
   /* 項目名に対する指定 */
   .form-label {
     /* フレックスアイテムに対する指定 */
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 12em;
     flex: 0 0 12em;
     max-width: 12em;
     margin: 0;
@@ -442,8 +422,6 @@ button[type="submit"]:hover{
   /* 入力欄を囲む<div>に対する指定 */
   .form-col {
     /* フレックスアイテムに対する指定 */
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 100%;
     flex: 0 1 100%;
   }
 }
