@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 .wrapper {
-  background: #f8ed76;
+  background: #f9f8ee;
   width: 800px;
   max-width: 90%;
   margin: 0 auto;
@@ -32,11 +32,10 @@ h1 { margin-bottom: 20px;
     background-size: 150px 50px;
 }
 ul { background: #fff; 
-    display: inline-block;
-    list-style: none;
     display: flex;
+    list-style: none;
     justify-content: center;
-    flex:1 1 20%
+    padding-left: 0;
 }
 a {
   display: block;
@@ -45,6 +44,8 @@ a {
   padding: 10px;
 }
 a:hover { background: #e4e3d6; }
+
+li{flex: 1 1 20%;}
 
 /*----------------------------
 main
@@ -64,4 +65,3 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
-.li{flex: 1 1 20%;}

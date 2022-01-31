@@ -29,6 +29,8 @@ header{
 section{
     border: 1px solid;
     border-color: rgb(165, 162, 162);
+    margin-top: 30px;
+    padding: 10px;
 }
 img{
     display: block;
@@ -46,7 +48,7 @@ address{
 h1{
     color: #fff;
 }
-div.flexContainer{
+.flexContainer{
     display: flex;
     justify-content: space-around;
 }
